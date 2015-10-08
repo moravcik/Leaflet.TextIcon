@@ -37,4 +37,4 @@ marker.options.icon.setColor('green');
 marker.options.icon.setText('21');
 ```
 
-## [Demo](example/index.html)
+## [Demo](http://moravcik.github.io/Leaflet.TextIcon/)
