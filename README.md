@@ -1,4 +1,4 @@
-# leaflet-text-icon
+# Leaflet.TextIcon
 Custom icon for Leaflet with dynamic text
 
 Adapted from: https://gist.github.com/comp615/2288108
