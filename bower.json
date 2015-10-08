@@ -1,0 +1,34 @@
+{
+  "name": "Leaflet.TextIcon",
+  "version": "0.0.1",
+  "homepage": "https://github.com/moravcik/leaflet-text-icon",
+  "authors": [
+    "moravcik <miso.moravcik@gmail.com>"
+  ],
+  "description": "Custom Leaflet icon with dynamic text",
+  "main": [
+    "leaflet-text-icon.js",
+    "leaflet-text-icon.css",
+    "images/marker-icon-hole-blue.png",
+    "images/marker-icon-hole-green.png",
+    "images/marker-icon-hole-red.png"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "leaflet",
+    "text",
+    "icon",
+    "custom"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.5"
+  }
+}
