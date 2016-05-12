@@ -9,9 +9,9 @@
   "main": [
     "leaflet-text-icon.js",
     "leaflet-text-icon.css",
-    "images/marker-icon-hole-blue.png",
-    "images/marker-icon-hole-green.png",
-    "images/marker-icon-hole-red.png"
+    "images/marker-hole-blue.svg",
+    "images/marker-hole-green.svg",
+    "images/marker-hole-red.svg"
   ],
   "moduleType": [],
   "keywords": [
