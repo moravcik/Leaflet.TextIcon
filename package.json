@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-texticon",
+  "version": "1.0.0",
+  "description": "Text icon for Leaflet Markers",
+  "main": "leaflet-text-icon.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moravcik/Leaflet.TextIcon.git"
+  },
+  "author": "Michal Moravcik <miso.moravcik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moravcik/Leaflet.TextIcon/issues"
+  },
+  "homepage": "https://github.com/moravcik/Leaflet.TextIcon#readme"
+}
