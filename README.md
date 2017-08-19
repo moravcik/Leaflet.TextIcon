@@ -1,3 +1,5 @@
+## TODO - rewrite to TypeScript
+
 # Leaflet.TextIcon
 Custom icon for Leaflet with dynamic text
 
