@@ -2,8 +2,8 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
-<script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
 
 <link rel="stylesheet" href="../leaflet-text-icon.css" />
 <script src="../leaflet-text-icon.js"></script>
@@ -25,6 +25,8 @@ var map = L.map('map_canvas', {
   center: [45, 0],
   zoom: 6
 });
+
+L.Icon.Default.imagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/images';
 
 var osm = new L.tileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18, 
