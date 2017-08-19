@@ -2,8 +2,8 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+<link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+<script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
 
 <link rel="stylesheet" href="../leaflet-text-icon.css" />
 <script src="../leaflet-text-icon.js"></script>
@@ -26,7 +26,7 @@ var map = L.map('map_canvas', {
   zoom: 6
 });
 
-var osm = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var osm = new L.tileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18, 
   attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 });
